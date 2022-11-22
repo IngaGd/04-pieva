@@ -5,8 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pieva</title>
+    <style>
+        body {}
+
+        header{
+            display: inline-block;
+            width: 800px;
+            margin-top: 150px;
+            margin-left: calc((100% - 800px) / 2); /*--must be spaces between math operators*/
+        }
+
+        header>img {
+            width: 100px;
+            float: left;
+        }
+
+        header>nav {
+            float: left;
+        }
+
+        header>div {
+            float: right;
+        }
+
+
+        main {
+            display: inline-block;
+            width: 800px;
+            margin-top: 10px;
+            margin-left: calc((100% - 800px) / 2); /*--must be spaces between math operators*/
+        }
+
+        main>div {
+            width: 35%;
+            float: left;
+        }
+
+        main>img {
+            width: 65%;
+            float: right;
+        }
+
+    </style>
 </head>
 <body>
-    CONTENT
+    <header>
+        <img src="./img/logo.webp" alt="Logo">
+        <nav>
+            LINKS
+        </nav>
+        <div>
+            FORM
+        </div>
+        <!--logo + nav + form-->
+    </header>
+    <main>
+        <div>
+            <!--content-->
+            CONTENT
+        </div>
+        <img src="./img/pieva.webp" alt="Meadow">
+    </main>
 </body>
 </html>
