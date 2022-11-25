@@ -8,6 +8,7 @@
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #030303;
+    background-color: #FFFFFF;
 }
 
 .main-header {
@@ -90,19 +91,26 @@ body {
 
 .description {
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 100;
+    margin-bottom: 40px;
+    line-height: 1.3em;
 }
 
 .btn {
     background-color: #8ADDAF;
     color: white;
-    text-transform: lowercase;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 25px;
+    transition: all 0.5s;
 }
 
-.link:hover {
-    background-color: #8ADDAF;
-    color: white;
-    text-transform: lowercase;
+.left-column > .btn:hover {
+    text-decoration: underline;
 }
 
 
