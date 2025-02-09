@@ -1,1 +1,1 @@
-Empty README
+BIT HTML and CSS course
